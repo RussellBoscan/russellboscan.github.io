@@ -1,0 +1,82 @@
+.text-link{
+    color: white;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
+}
+    .text-link:hover, .text-link:focus{
+        color: grey;
+    }
+
+.texto-major{
+    font-family: Major Mono Display;
+}
+
+.foto-perfil{
+    margin-top: -50px;
+}
+
+.index-background{
+    background-color: #461111;
+}
+
+.navbar{
+    padding: 0 .75rem;
+}
+@media (max-width: 991px) {
+    .nav-text{
+        padding: .6rem 1rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, .6);
+        border-left: .25rem solid transparent;
+        border-right: .25rem solid transparent;
+        text-decoration: none;
+        display: block;
+        transition: 0.25s ease-in-out;
+    }
+    
+        .nav-text:hover, .nav-text:focus {
+            color: rgba(255, 255, 255, .5);
+            border-left-color: rgba(255, 255, 255, .25);
+            border-right-color: rgba(255, 255, 255, .25);
+        }
+    
+    .active {
+        color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        transition: 0.25s ease-in-out;
+    }
+    
+        .active:hover, .active:focus{
+            color: #fff;
+            border-left-color: rgba(255, 255, 255, .25);
+            border-right-color: rgba(255, 255, 255, .25);
+        }
+}
+
+@media (min-width: 992px){
+    .nav-text{
+        padding: .6rem 1rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, .6);
+        border-bottom: .25rem solid transparent;
+        text-decoration: none;
+        transition: 0.25s ease-in-out;
+    }
+
+        .nav-text:hover, .nav-text:focus {
+            color: rgba(255, 255, 255, .5);
+            border-bottom-color: rgba(255, 255, 255, .25);
+        }
+
+    .active {
+        color: #fff;
+        border-bottom-color: #fff;
+        transition: 0.25s ease-in-out;
+    }
+
+        .active:hover, .active:focus{
+            color: #fff;
+            border-bottom-color: rgba(255, 255, 255, .25);
+        }
+}
